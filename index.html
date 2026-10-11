@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Persona Arcana Counter</title>
+
+    <link rel="stylesheet" href="arcana_Counter.css">
+</head>
+
+<body class="persona3">
+
+    <header class="page-header">
+        <h1 class="page-title">ARCANA COUNTER</h1>
+        <p class="page-subtitle">Choose your Persona series</p>
+    </header>
+
+    <!-- Chọn Persona -->
+    <nav class="persona_Series" aria-label="Chọn Persona series">
+        <button
+            type="button"
+            class="series-btn active"
+            data-serie="3"
+            onclick="changeSerie(3)">
+            PERSONA 3
+        </button>
+
+        <button
+            type="button"
+            class="series-btn"
+            data-serie="4"
+            onclick="changeSerie(4)">
+            PERSONA 4
+        </button>
+
+        <button
+            type="button"
+            class="series-btn"
+            data-serie="5"
+            onclick="changeSerie(5)">
+            PERSONA 5
+        </button>
+    </nav>
+
+    <!-- Thông tin series đang chọn -->
+    <section class="series-header">
+        <h2 id="seriesTitle"></h2>
+    </section>
+
+    <!-- Danh sách Arcana được JavaScript tạo ra -->
+    <main id="arcana_list"></main>
+
+    <!-- Khu vực thao tác -->
+    <footer class="page-footer">
+        <button type="button" id="resetCounter">
+            RESET COUNTER
+        </button>
+    </footer>
+
+    <script src="arcana_Counter.Js"></script>
+
+</body>
+</html>
