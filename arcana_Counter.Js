@@ -2,6 +2,7 @@ const arcanaData = {
     3: [
         { name: "0 'Fool'", count: 0 },
         { name: "XIII 'Death'", count: 0 },
+        { name: "XX 'Judgement'", count: 0 },
         { name: "VI 'Lovers'", count: 0 },
         { name: "I 'Magician'", count: 0 },
         { name: "XVII 'Star'", count: 0 },
